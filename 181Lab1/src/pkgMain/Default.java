@@ -4,6 +4,10 @@ package pkgMain;
 /*
  * CISC181 Lab1
  * 
+ * Jessica Albanese
+ * Marc Bolinas
+ * Aashaka Desai
+ * 
  */
 
 import java.math.*;
@@ -42,6 +46,7 @@ public class Default {
 		
 		savings = expensesMonthly * ((1 - Math.pow((1 + (annualRetired / 12)), -1 * 12 * yearsRetired)) / (annualRetired / 12));
 		
+		// Obviously the best way to round to two decimal places
 		savings = Math.round(savings * 100);
 		savings = savings / 100;
 		
